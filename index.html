@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="/app.js" defer></script>
+    <title>Movie App</title>
+</head>
+<body class="body">
+    <nav>
+        <div>
+            <a href="/index.html">
+                <img src="/red-1618916_640.png" alt="">
+            </a>
+        </div>
+        <div class="searchDiv">
+            <form id="form">
+            <input type="search" placeholder="Search for movies" class="searchBox">
+        </form>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sponsor</a></li>
+            </ul>
+        </div>  
+        <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>  
+    </nav>
+
+    <header>
+        <h1>Movies</h1>
+    </header>
+
+    <div class="container"></div>
+    <div class="btnDiv">
+        <input type="button" value="Prev. Page" class="button hideBtn">
+        <input type="button" value="Next Page" class="button">
+    </div>
+</body>
+</html>
